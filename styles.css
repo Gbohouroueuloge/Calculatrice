@@ -1,0 +1,38 @@
+
+* {
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+.corps-calculatrice > div:first-of-type > input:first-of-type {
+    cursor:no-drop;
+}
+
+#clean {
+    background-color: rgba(245, 132, 147, 0.945) !important;
+    border-color: rgba(245, 132, 147, 0.945) !important;
+}
+
+#clean:hover {
+    background-color: rgba(245, 132, 147, 0.664) !important;
+    border-color: rgba(245, 132, 147, 0.664) !important;
+}
+
+@media screen and (max-width: 670px) {
+    .corps-calculatrice {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .corps-calculatrice {
+        width: 60% !important;
+    }
+}

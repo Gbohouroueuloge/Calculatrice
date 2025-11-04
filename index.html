@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Fichiers-Externe/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="Fichiers-Externe/bootstrap.bundle.min.js"></script>
+    <title>Calculatrice</title>
+</head>
+<body class="m-0 p-0 border-0 bg-primary-subtle text-black">
+    <div class="corps-calculatrice container-lg border border-3 border-dark rounded-3 w-25 py-3 m-auto mt-5 bg-secondary-subtle">
+        <div class="d-flex justify-content-between  w-100 my-3">
+            <h1 class="fs-4 fw-bold">Dev-Calcul</h1>
+            <input type="text" readonly class="form-control-plaintext bg-black w-25 text-light text-center fw-bold rounded-3" value="fx-23">
+        </div>
+
+        <input type="text" id="affichage" readonly class="form-control-plaintext bg-light border-1 border-dark w-100 mb-4 text-end text-dark fs-4 fw-medium rounded-1 pe-3" value="0">
+
+        
+        <div class="d-flex justify-content-end gap-2 mb-2">
+            <button type="button" id="puissance" class="w-25 btn btn-dark">x²</button>
+            <button type="button" id="porcentage" class="w-25 btn btn-dark">%</button>
+            <button type="button" id="clean" class="w-25 btn btn-dark fw-bold">C</button>
+            <button type="button" id="supprime" class="w-25 btn btn-danger fw-bold">Suppr</button>
+        </div>
+        <div class="coposant-calculat d-flex gap-3">
+            <div class="butt-calculat d-flex gap-2 flex-wrap justify-content-center align-items-center">
+                <button type="button" id="nb9" class="flex-fill w-25 btn btn-dark fs-3">9</button>
+                <button type="button" id="nb8" class="flex-fill w-25 btn btn-dark fs-3">8</button>
+                <button type="button" id="nb7" class="flex-fill w-25 btn btn-dark fs-3">7</button>
+                <button type="button" id="nb6" class="flex-fill w-25 btn btn-dark fs-3">6</button>
+                <button type="button" id="nb5" class="flex-fill w-25 btn btn-dark fs-3">5</button>
+                <button type="button" id="nb4" class="flex-fill w-25 btn btn-dark fs-3">4</button>
+                <button type="button" id="nb3" class="flex-fill w-25 btn btn-dark fs-3">3</button>
+                <button type="button" id="nb2" class="flex-fill w-25 btn btn-dark fs-3">2</button>
+                <button type="button" id="nb1" class="flex-fill w-25 btn btn-dark fs-3">1</button>
+                <button type="button" id="nb0" class="flex-fill btn btn-dark fs-3">0</button>
+                <button type="button" id="buttPoint" class="w-25 btn btn-dark fs-3">.</button>
+            </div>
+            <div class="adict-calculatrice w-50 d-flex flex-column gap-2 flex-wrap justify-content-center align-items-center py-1">
+                <button type="button" id="division" class="flex-fill w-100 btn btn-dark fs-4">/</button>
+                <button type="button" id="multiplication" class="flex-fill w-100 btn btn-dark fs-4">*</button>
+                <button type="button" id="soustraction" class="flex-fill w-100 btn btn-dark fs-4">-</button>
+                <button type="button" id="addiction" class="flex-fill w-100 btn btn-dark fs-4">+</button>
+                <button type="button" id="resultat" class="flex-fill w-100 btn btn-primary fs-4">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
