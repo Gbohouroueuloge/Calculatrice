@@ -15,4 +15,4 @@ Pour utiliser la calculatrice, il suffit de charger la page web et de saisir les
 Ensuite, appuyez sur le bouton correspondant à l'opération souhaitée pour obtenir le résultat.
 Vous pouvez également consulter le code source de la calculatrice sur le dépôt GitHub : [https://github.com/Gbohouroueuloge/Calculatrice](https://github.com/Gbohouroueuloge/Calculatrice)
 
-# Voir le site web en Direct (https://gbohouroueuloge.github.io/Calculatrice/)
+# Voir le site web en direct : [https://gbohouroueuloge.github.io/Calculatrice/](https://gbohouroueuloge.github.io/Calculatrice/)
